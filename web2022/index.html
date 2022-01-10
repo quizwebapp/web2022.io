@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!-- <title>Squeeze Quiz</title> -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- Fontquiz CDN Link for icons -->
+    <script src="https://kit.fontawesome.com/461635770b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <!-- Start button -->
+   <div class="start_btn"><button>Start Quiz</button></div>
+
+   <!-- Rule box-->
+   <div class="rule_box">
+       <div class="rule-title"><span>Rules of Quiz</span></div>
+       <div class="rule-list">
+           <div class="rule">1. Only <span>15 seconds</span> per each question.</div>
+           <div class="rule">2. Once you select an answer you can't reselect.</div>
+           <div class="rule">3. If the time is up, there is no way to choose.</div>
+           <div class="rule">4. No way back, while you playing.</div>
+           <div class="rule">5. Correct answer <span>+1 point.</span></div>
+       </div>
+       <div class="buttons">
+           <button class="quit">Exit Quiz</button>
+           <button class="restart">Continue</button>
+       </div>
+   </div>
+
+   <!-- Quiz box -->
+   <div class="quiz_box">
+       <header>
+           <div class="title">Squeeze Quiz</div>
+           <div class="timer">
+               <div class="time_left_txt">Time Left</div>
+               <div class="timer_sec">15</div>
+           </div>
+           <div class="time_line"></div>
+       </header>
+       <section>
+           <div class="que_text">
+               <!-- <span>What does HTML stand for?</span> -->
+           </div>
+           <div class="option_list">
+               <!--<div class="option">
+                    <span>Hard To Make Love</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hypertext Markup Language</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hey That's My Lunch</span>
+                </div>
+                <div class="option">
+                    <span>Hyper Tool Markup Language</span>
+                </div> -->
+           </div>
+       </section>
+       <!-- Quiz Box Footer -->
+       <footer>
+           <div class="total_que">
+              <!-- <span><p>2</p>of<p>15</p>Questions</span> -->
+           </div>
+           <button class="next_btn">Next Que</button>
+       </footer>
+   </div>
+
+   <!-- Result Box -->
+   <div class="result_box">
+       <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete_text">You've completed the Quiz!</div>
+    <div class="score_text">
+        <span>sorry, You got only <p>2</p> out of <p>15</p></span>
+    </div>
+    <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+       </div>
+   </div>
+
+   <script src="js/script.js"></script>
+   <script src="js/questions.js"></script>
+
+</body>
+</html>
+</html>
